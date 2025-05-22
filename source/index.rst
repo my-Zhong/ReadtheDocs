@@ -29,13 +29,27 @@ EasyNCO supports the following methods:
 +-----------------+--------------------------------------------------------------+
 | Methods         | Paper title                                                  |
 +=================+==============================================================+
-| POMO            | ----                                                         |
+| AM              | Attention, Learn To Solve Routing Problems! (ICLR 2019)      |
 +-----------------+--------------------------------------------------------------+
-| LEHD            | ----                                                         |
+| POMO            | POMO: Policy Optimization with Multiple Optima for Reinforcement Learning (NeurIPS 2020) |
 +-----------------+--------------------------------------------------------------+
-| ELG             | ----                                                         |
+| LEHD            | Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization (NeurIPS 2023) |
 +-----------------+--------------------------------------------------------------+
-| RandomSampling  | ----                                                         |
+| INViT           | INViT: A Generalizable Routing Problem Solver  with Invariant Nested View Transformer (ICML 2024)  |
++-----------------+--------------------------------------------------------------+
+| ELG             | Towards Generalizable Neural Solvers for Vehicle Routing Problems via Ensemble with Transferrable Local Policy (IJCAI 2024) |
++-----------------+--------------------------------------------------------------+
+| DeepACO         | DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization (NeurIPS 2023) |
++-----------------+--------------------------------------------------------------+
+| NLNS            | Neural large neighborhood search for routing problems (Artificial Intelligence, 2022) |
++-----------------+--------------------------------------------------------------+
+|                 | ----                                                         |
++-----------------+--------------------------------------------------------------+
+|                 | ----                                                         |
++-----------------+--------------------------------------------------------------+
+|                 | ----                                                         |
++-----------------+--------------------------------------------------------------+
+|                 | ----                                                         |
 +-----------------+--------------------------------------------------------------+
 
 
@@ -49,17 +63,22 @@ EasyNCO supports the following methods:
 🌟Supported tasks
 -------------------
 
-+----------------------------+----------------------------+----------------------------------------------+
-| Problem Category           | Typical Problems           | Description                                  |
-+============================+============================+==============================================+
-| Routing Problems           | TSP, VRP, Dial-a-Ride      | ------                                       |
-+----------------------------+----------------------------+----------------------------------------------+
-| Packing Problems           | Knapsack, Bin Packing      | ------                                       |
-+----------------------------+----------------------------+----------------------------------------------+
-| Scheduling Problems        | Job Scheduling, Flow Shop  | ------                                       |
-+----------------------------+----------------------------+----------------------------------------------+
-| Assignment Problems        | Assignment, Matching       | ------                                       |
-+----------------------------+----------------------------+----------------------------------------------+
++----------------------------+----------------------------------------+----------------------------------------------+
+| Problem Category           | Typical Problems                       | Description                                  |
++============================+========================================+==============================================+
+| Routing Problems           | TSP, ATSP, PCTSP, CVRP, OP, SOP        | Find one or more paths in a graph to minimize|
+|                            |                                        | cost or maximize reward under constraints.   |
++----------------------------+----------------------------------------+----------------------------------------------+
+| Scheduling Problems        | FFSP, RCPSP, SMTWTP                    | Assign start times or order to tasks under   |
+|                            |                                        | resource/time constraints to optimize goals. |
++----------------------------+----------------------------------------+----------------------------------------------+
+| Packing Problems           | KP, MKP, BPP                           | Select items under capacity limits to        |
+|                            |                                        | maximize value or minimize container usage.  |
++----------------------------+----------------------------------------+----------------------------------------------+
+| Assignment / Graph Problems| MIS                                    | Match items or select subsets under structural|
+|                            |                                        | constraints to optimize objective.           |
++----------------------------+----------------------------------------+----------------------------------------------+
+
 
 .. note::
     1111
