@@ -1,128 +1,513 @@
-
-
 <!DOCTYPE html>
-<html class="writer-html5" lang="zh-CN" data-content_root="./">
-<head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Demo’s documentation! &mdash; Demo release 文档</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <title>Welcome to EasyNCO’s documentation!</title>
+    
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
+          <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script src="_static/documentation_options.js?v=d45e8c67"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Search" href="search.html" />
+  <link rel="next" title="Installation" href="getting_started/installation.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="#" class="home-link">
+    
+      <span class="site-name">EasyNCO</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
 
   
-      <script src="_static/jquery.js?v=5d32c60e"></script>
-      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=63b472d8"></script>
-      <script src="_static/doctools.js?v=9a2dae69"></script>
-      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-      <script src="_static/translations.js?v=beaddf03"></script>
-    <script src="_static/js/theme.js"></script>
-    <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="一级标题" href="Cpp/index.html" /> 
-</head>
-
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="#" class="icon icon-home">
-            Demo
-          </a>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Cpp/index.html">一级标题</a></li>
-</ul>
-
-        </div>
-      </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Demo</a>
-      </nav>
-
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="页面导航">
-  <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Welcome to Demo’s documentation!</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/index.rst.txt" rel="nofollow"> 查看页面源码</a>
-      </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
-  <section id="welcome-to-demo-s-documentation">
-<h1>Welcome to Demo’s documentation!<a class="headerlink" href="#welcome-to-demo-s-documentation" title="Link to this heading"></a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Cpp/index.html">一级标题</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Cpp/01%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%981/index.html">二级标题</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Cpp/01%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%981/01%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%981.html">一级标题显示</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading"></a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">搜索页面</span></a></p></li>
-</ul>
-</section>
-
-
-           </div>
-          </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="Cpp/index.html" class="btn btn-neutral float-right" title="一级标题" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Getting Started
+      </a>
     </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Overview
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Developer Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Method
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Task
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         About
+      </a>
+    </div>
+  
 
-  <hr/>
 
-  <div role="contentinfo">
-    <p>&#169; 版权所有 2024, name。</p>
+
+    </navlinks>
   </div>
+</navbar>
 
-  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
-    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
-   
-
-</footer>
-        </div>
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
       </div>
-    </section>
-  </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
 
-</body>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Getting Started
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Overview
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Developer Documentation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Method
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         Task
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#navigation"
+         class="nav-link ">
+         About
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">Getting Started</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="getting_started/installation.html" class="reference internal ">Installation</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="getting_started/quickstart.html" class="reference internal ">Quickstart</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="getting_started/online_demo.html" class="reference internal ">Online demo</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="getting_started/gui.html" class="reference internal ">Graphical User Interface (GUI)</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">Overview</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="overview/introduction.html" class="reference internal ">Introduction</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="overview/platform_structure.html" class="reference internal ">Platform Structure</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">Developer Documentation</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="developer_doc/setting.html" class="reference internal ">Setting</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="developer_doc/data.html" class="reference internal ">Data</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="developer_doc/exact_solvers.html" class="reference internal ">Exact Solvers</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="developer_doc/methods.html" class="reference internal ">Methods</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="developer_doc/phases.html" class="reference internal ">Phases</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">Method</a></span>
+      </p>
+      <ul class="">
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">Task</a></span>
+      </p>
+      <ul class="">
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#navigation">About</a></span>
+      </p>
+      <ul class="">
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+    
+    <li>Welcome to EasyNCO’s documentation!</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="next">
+    <a href="getting_started/installation.html"
+       title="next chapter">Installation →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="welcome-to-easynco-s-documentation">
+<h1>Welcome to EasyNCO’s documentation!<a class="headerlink" href="#welcome-to-easynco-s-documentation" title="Link to this heading">¶</a></h1>
+<p>😀欢迎界面</p>
+<p>平台大致介绍</p>
+<p>pipline:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/pipline.png"><img alt="pipline" src="_images/pipline.png" style="width: 100%;" /></a>
+</figure>
+<section id="features">
+<h2>🚀Features<a class="headerlink" href="#features" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>1</p></li>
+<li><p>2</p></li>
+<li><p>3</p></li>
+</ul>
+</section>
+<section id="supported-methods">
+<h2>🎉Supported methods<a class="headerlink" href="#supported-methods" title="Link to this heading">¶</a></h2>
+<p>EasyNCO supports the following methods:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Methods</p></th>
+<th class="head"><p>Paper title</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AM</p></td>
+<td><p>Attention, Learn To Solve Routing Problems! (ICLR 2019)</p></td>
+</tr>
+<tr class="row-odd"><td><p>POMO</p></td>
+<td><p>POMO: Policy Optimization with Multiple Optima for Reinforcement Learning (NeurIPS 2020)</p></td>
+</tr>
+<tr class="row-even"><td><p>LEHD</p></td>
+<td><p>Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization (NeurIPS 2023)</p></td>
+</tr>
+<tr class="row-odd"><td><p>INViT</p></td>
+<td><p>INViT: A Generalizable Routing Problem Solver  with Invariant Nested View Transformer (ICML 2024)</p></td>
+</tr>
+<tr class="row-even"><td><p>ELG</p></td>
+<td><p>Towards Generalizable Neural Solvers for Vehicle Routing Problems via Ensemble with Transferrable Local Policy (IJCAI 2024)</p></td>
+</tr>
+<tr class="row-odd"><td><p>DeepACO</p></td>
+<td><p>DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization (NeurIPS 2023)</p></td>
+</tr>
+<tr class="row-even"><td><p>NLNS</p></td>
+<td><p>Neural large neighborhood search for routing problems (Artificial Intelligence, 2022)</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>1111</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>2222</p>
+</div>
+</section>
+<section id="supported-tasks">
+<h2>🌟Supported tasks<a class="headerlink" href="#supported-tasks" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Problem Category</p></th>
+<th class="head"><p>Typical Problems</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Routing Problems</p></td>
+<td><p>TSP, ATSP, PCTSP, CVRP, OP, SOP</p></td>
+<td><p>Find one or more paths in a graph to minimize cost or maximize reward under constraints.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Scheduling Problems</p></td>
+<td><p>FFSP, RCPSP, SMTWTP</p></td>
+<td><p>Assign start times or order to tasks under resource/time constraints to optimize goals.</p></td>
+</tr>
+<tr class="row-even"><td><p>Packing Problems</p></td>
+<td><p>KP, MKP, BPP</p></td>
+<td><p>Select items under capacity limits to maximize value or minimize container usage.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Assignment / Graph Problems</p></td>
+<td><p>MIS</p></td>
+<td><p>Match items or select subsets under structural constraints to optimize objective.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>1111</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>2222</p>
+</div>
+</section>
+<section id="navigation">
+<h2>🧭Navigation<a class="headerlink" href="#navigation" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting_started/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started/quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started/online_demo.html">Online demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started/gui.html">Graphical User Interface (GUI)</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview/platform_structure.html">Platform Structure</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Developer Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="developer_doc/setting.html">Setting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_doc/data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_doc/exact_solvers.html">Exact Solvers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_doc/methods.html">Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_doc/phases.html">Phases</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="about-easynco">
+<h2>🤝About EasyNCO<a class="headerlink" href="#about-easynco" title="Link to this heading">¶</a></h2>
+</section>
+<section id="citation">
+<h2>📄Citation<a class="headerlink" href="#citation" title="Link to this heading">¶</a></h2>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ye2023deepaco</span><span class="p">,</span>
+<span class="w">  </span><span class="na">title</span><span class="p">=</span><span class="s">{DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">author</span><span class="p">=</span><span class="s">{Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">booktitle</span><span class="p">=</span><span class="s">{Advances in Neural Information Processing Systems}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">year</span><span class="p">=</span><span class="s">{2023}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="next">
+    <a href="getting_started/installation.html"
+       title="next chapter">Installation →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2024, easynco team.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.3.7 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.9.1.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
 </html>
