@@ -64,5 +64,5 @@ html_theme = 'press'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-def setup(app):
-    app.add_css_file('custom.css')
+# def setup(app):
+#     app.add_css_file('custom.css')
