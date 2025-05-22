@@ -1,5 +1,4 @@
-/* 让所有文档中的表格整体左对齐 */
-.docutils table {
-    margin-left: 0 !important;
-    margin-right: auto !important;
+/* 数据单元格左对齐 */
+table.docutils td {
+    text-align: left !important;
 }
