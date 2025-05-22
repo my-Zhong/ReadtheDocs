@@ -1,21 +1,123 @@
-.. Demo documentation master file, created by
-   sphinx-quickstart on Thu Oct 31 10:04:27 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to EasyNCO's documentation!
+======================================
 
-Welcome to Demo's documentation!
-================================
+😀欢迎界面
+
+平台的大致介绍
+
+框架图片介绍。。。
+
+
+🚀Features
+--------------
+
+- 1
+- 2
+- 3
+
+🎉Supported methods
+----------------------
+
+EasyNCO supports the following methods:
+
++-----------------+--------------------------------------------------------------+
+| Methods         | Paper title                                                  |
++=================+==============================================================+
+| POMO            | ----                                                         |
++-----------------+--------------------------------------------------------------+
+| LEHD            | ----                                                         |
++-----------------+--------------------------------------------------------------+
+| ELG             | ----                                                         |
++-----------------+--------------------------------------------------------------+
+| RandomSampling  | ----                                                         |
++-----------------+--------------------------------------------------------------+
+
+
+.. note::
+    1111
+
+.. tip::
+    2222
+
+
+🌟Supported tasks
+-------------------
+
++----------------------------+----------------------------+----------------------------------------------+
+| Problem Category           | Typical Problems           | Description                                  |
++============================+============================+==============================================+
+| Routing Problems           | TSP, VRP, Dial-a-Ride      | ------                                       |
++----------------------------+----------------------------+----------------------------------------------+
+| Packing Problems           | Knapsack, Bin Packing      | ------                                       |
++----------------------------+----------------------------+----------------------------------------------+
+| Scheduling Problems        | Job Scheduling, Flow Shop  | ------                                       |
++----------------------------+----------------------------+----------------------------------------------+
+| Assignment Problems        | Assignment, Matching       | ------                                       |
++----------------------------+----------------------------+----------------------------------------------+
+
+.. note::
+    1111
+
+.. tip::
+    2222
+
+🧭Navigation
+---------------
+.. toctree::
+    :maxdepth: 1
+    :caption: Getting Started
+
+    getting_started/installation
+    getting_started/quickstart
+    getting_started/online_demo
+    getting_started/gui
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+    :maxdepth: 1
+    :caption: Overview
 
-   Cpp/index
+    overview/introduction
+    overview/platform_structure
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Developer Documentation
+
+    developer_doc/setting
+    developer_doc/data
+    developer_doc/exact_solvers
+    developer_doc/methods
+    developer_doc/phases
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Method
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Task
+
+.. toctree::
+    :maxdepth: 1
+    :caption: About
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+🤝About EasyNCO
+---------------------
+
+
+
+📄Citation
+-------------------
+
+
+
+.. code-block:: bibtex
+
+    @inproceedings{ye2023deepaco,
+      title={DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization},
+      author={Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2023}
+    }

@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Demo'
-copyright = '2024, name'
-author = 'name'
+project = 'EasyNCO'
+copyright = '2024, easynco team'
+author = 'easynco team'
 
 # The full version, including alpha/beta/rc tags
-release = 'release'
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
