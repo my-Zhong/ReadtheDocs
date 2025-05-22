@@ -3,9 +3,15 @@ Welcome to EasyNCO's documentation!
 
 😀欢迎界面
 
-平台的大致介绍
+平台大致介绍
 
-框架图片介绍。。。
+pipline:
+
+.. figure:: ./assets/figs/pipline.png
+    :alt: pipline
+    :align: center
+    :width: 100%
+
 
 
 🚀Features
