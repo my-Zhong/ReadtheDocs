@@ -59,7 +59,7 @@ exclude_patterns = []
 # html_theme = 'sphinx_rtd_theme'
 html_theme = 'press'
 
-html_logo = 'assets/figs/logo.png'
+html_logo = '_static/logo.png'
 
 html_theme_options = {
   "external_links": [
