@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'EasyNCO'
-copyright = '2024, easynco team'
-author = 'easynco team'
+copyright = '2024, Easynco team'
+author = 'Easynco team'
 release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
