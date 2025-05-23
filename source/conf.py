@@ -20,18 +20,13 @@
 project = 'EasyNCO'
 copyright = '2024, easynco team'
 author = 'easynco team'
-
-# The full version, including alpha/beta/rc tags
 release = '0.0.1'
-
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-# extensions = [
-# ]
 extensions = ['recommonmark','sphinx_markdown_tables']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -49,24 +44,18 @@ language = 'en'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
-
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-# html_theme = 'alabaster'
-# html_theme = 'sphinx_rtd_theme'
-html_theme = 'press'
-
-html_logo = '_static/logo.png'
-
 html_theme_options = {
   "external_links": [
       ("Github", "https://github.com/username/repo"),
       ("Other", "https://bla.com")
   ]
 }
+
+source_suffix = ['.rst', '.md']
+
+# -- Options for HTML output -------------------------------------------------
+
+html_theme = 'press'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -75,5 +64,3 @@ html_static_path = ['_static']
 
 html_css_files = ["css/custom.css"]
 
-# def setup(app):
-#     app.add_css_file('custom.css')

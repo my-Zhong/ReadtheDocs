@@ -7,7 +7,7 @@ Welcome to EasyNCO's documentation!
 
 pipline:
 
-.. figure:: ./assets/figs/pipline.png
+.. figure:: ./_static/pipline.png
     :alt: pipline
     :align: center
     :width: 100%
