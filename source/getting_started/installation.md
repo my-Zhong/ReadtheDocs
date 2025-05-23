@@ -20,4 +20,4 @@ tensordict==0.1.2
 > `pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2`
 
 Then you can install them using the following command:
-pip install -r requirements.txt
+`pip install -r requirements.txt`

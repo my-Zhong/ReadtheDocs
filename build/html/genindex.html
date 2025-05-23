@@ -8,6 +8,7 @@
     
           <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
           <link rel="stylesheet" href="_static/theme.css " type="text/css" />
+          <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
       
       <!-- sphinx script_files -->
         <script src="_static/documentation_options.js?v=d45e8c67"></script>
@@ -28,7 +29,7 @@
     <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
   <router-link to="index.html" class="home-link">
     
-      <span class="site-name">EasyNCO</span>
+      <img class="logo" src="_static/logo.png" alt="logo"/>
     
   </router-link>
 
@@ -71,15 +72,24 @@
       </a>
     </div>
   
+
+
+
+  
     <div class="nav-item">
-      <a href="index.html#navigation"
-         class="nav-link ">
-         About
+      <a href="https://github.com/username/repo"
+        class="nav-link external">
+          Github <outboundlink></outboundlink>
       </a>
     </div>
   
-
-
+    <div class="nav-item">
+      <a href="https://bla.com"
+        class="nav-link external">
+          Other <outboundlink></outboundlink>
+      </a>
+    </div>
+  
 
     </navlinks>
   </div>
@@ -129,15 +139,24 @@
       </a>
     </div>
   
+
+
+
+  
     <div class="nav-item">
-      <a href="index.html#navigation"
-         class="nav-link ">
-         About
+      <a href="https://github.com/username/repo"
+        class="nav-link external">
+          Github <outboundlink></outboundlink>
       </a>
     </div>
   
-
-
+    <div class="nav-item">
+      <a href="https://bla.com"
+        class="nav-link external">
+          Other <outboundlink></outboundlink>
+      </a>
+    </div>
+  
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
@@ -215,7 +234,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="overview/platform_structure.html" class="reference internal ">Platform Structure</a>
+              <a href="overview/platform_structure.html" class="reference internal ">Platform structure</a>
             
 
             
@@ -294,14 +313,41 @@
       </p>
       <ul class="">
         
-      </ul>
-    </div>
-  
-    <div class="sidebar-group">
-      <p class="caption">
-        <span class="caption-text"><a href="index.html#navigation">About</a></span>
-      </p>
-      <ul class="">
+          <li class="toctree-l1 ">
+            
+              <a href="tasks/routing.html" class="reference internal ">Routing Problems</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="tasks/scheduling.html" class="reference internal ">Scheduling Problems</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="tasks/packing.html" class="reference internal ">Packing Problems</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="tasks/assignment.html" class="reference internal ">Assignment / Graph Problems</a>
+            
+
+            
+          </li>
+
         
       </ul>
     </div>

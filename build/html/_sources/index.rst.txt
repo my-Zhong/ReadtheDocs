@@ -118,9 +118,11 @@ EasyNCO supports the following methods:
     :maxdepth: 1
     :caption: Task
 
-.. toctree::
-    :maxdepth: 1
-    :caption: About
+    tasks/routing
+    tasks/scheduling
+    tasks/packing
+    tasks/assignment
+
 
 
 
